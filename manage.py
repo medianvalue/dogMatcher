@@ -3,7 +3,11 @@ import os
 import sys
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "dogMatcher.settings")
+=======
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "petApp.settings")
+>>>>>>> 152d381ebbabc5348030d7e8d49946fd59e87063
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
